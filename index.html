@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coming Soon</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <ul class="box-area">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="txt">
+        <h5 style="text-align: center; font-size:30px; color: #ffffff;">COMING SOON<br/>
+        STAY TUNE</h5>
+        <h1 style="color: #ffffff;">pilih menu</h1>
+      </div>
+      <div class="card_container">
+      <!--<img src="<?= base_url() ?>/assets/img/l2.png">-->
+        <div class="card">
+          <div class="card-image">
+            <a href="cuci_sepatu/index.html">
+              <img src="assets/img/jamur.png" alt="img.jpg" />
+            </a>
+          </div>
+          <div class="card-description">
+            <h3>COMING SOON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="assets/img/jamur.png" alt="img.jpg" />
+            </a>
+          </div>
+          <div class="card-description">
+            <h3>COMING SOON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="#">
+              <img src="assets/img/jamur.png" alt="img.jpg" />
+            </a>
+          </div>
+          <div class="card-description">
+            <h3>COMING SOON</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="animate">
+        SVG Code
+      <svg version="1.1" id="dinus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 300" enable-background="new 0 0 800 300" xml:space="preserve">
+      <text transform="matrix(1 0 0 1 4.2921 210.0535)" font-size="110" text-align="center">DinusFest 2021</text>
+      </svg>
+    </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function(){
+        $('.animate').fadeToggle();
+      },2500);
+      
+      function LCC() {
+          window.location.href = '<?= base_url("lomba-cerdas-cermat") ?>';
+      }
+      
+      function TIK() {
+          window.location.href = '<?= base_url("bisnis-tik") ?>';
+      }
+    </script>
+  </body>
+</html>
