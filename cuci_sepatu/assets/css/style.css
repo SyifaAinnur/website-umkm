@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
 }
 
 html {
@@ -312,6 +313,7 @@ header nav li:last-child {
 	max-width: 1370px;
 	margin: auto;
 	overflow: hidden;
+	
   }
 .card {
 	display: grid;
@@ -429,7 +431,7 @@ img{
 	transition: .4s linear;
 }
 .gallery-item-inner:hover img{
-	transform: scale(1.6) ;
+	transform: scale(0.9) ;
 }
 .gallery .gallery-item::before{
 	content: "";
